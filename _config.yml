@@ -1,0 +1,10 @@
+# GitHub Pages configuration
+title: Sareoung Timothy Ly - Portfolio
+description: Computer Science & Economics student portfolio
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
