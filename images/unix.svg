@@ -1,0 +1,21 @@
+<!-- This is a placeholder for unix.png -->
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0f172a"/>
+  <rect x="20" y="20" width="360" height="40" fill="#1e293b" rx="5"/>
+  <circle cx="40" cy="40" r="8" fill="#ef4444"/>
+  <circle cx="60" cy="40" r="8" fill="#f59e0b"/>
+  <circle cx="80" cy="40" r="8" fill="#10b981"/>
+  
+  <text x="20" y="90" fill="#10b981" font-family="monospace" font-size="14">$ ./unix_shell</text>
+  <text x="20" y="110" fill="#e5e7eb" font-family="monospace" font-size="12">UNIX Shell v1.0</text>
+  <text x="20" y="130" fill="#e5e7eb" font-family="monospace" font-size="12">Built with C and system calls</text>
+  <text x="20" y="150" fill="#e5e7eb" font-family="monospace" font-size="12">Features: piping, redirection, process control</text>
+  
+  <rect x="20" y="170" width="360" height="2" fill="#2563eb"/>
+  
+  <text x="20" y="200" fill="#10b981" font-family="monospace" font-size="14">$ ls -la | grep shell</text>
+  <text x="20" y="220" fill="#e5e7eb" font-family="monospace" font-size="12">-rwxr-xr-x 1 user user 12345 Nov 17 shell.c</text>
+  <text x="20" y="240" fill="#e5e7eb" font-family="monospace" font-size="12">-rwxr-xr-x 1 user user 45678 Nov 17 unix_shell</text>
+  
+  <text x="320" y="280" fill="#6b7280" font-family="monospace" font-size="10">Timothy Ly</text>
+</svg>

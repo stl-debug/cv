@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sareoung Timothy Ly - Computer Science & Economics Student</title>
+    <meta name="description" content="Computer Science & Economics student at University of Georgia passionate about full-stack development and systems programming.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>Sareoung Timothy Ly</h1>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#resume" class="nav-link">Resume</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Sareoung Timothy Ly</h1>
+                <p class="hero-subtitle">Computer Science & Economics Student</p>
+                <p class="hero-description">
+                    Passionate about full‑stack development, systems programming, and building solutions that blend technical depth with real‑world impact. Currently pursuing dual degrees at the University of Georgia.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">3.6</span>
+                        <span class="stat-label">GPA</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">6+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Degrees</span>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="/Users/timothyly/Resumes/Resume.pdf" target="_blank" class="btn btn-resume" download="Timothy_Ly_Resume.pdf">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="images/386ECEA1-65FA-4B36-B8C8-20B59C339FA6_1_201_a.jpeg" alt="Timothy Ly" class="profile-image">
+                    <div class="image-decoration"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-contact">
+            <p><i class="fas fa-map-marker-alt"></i> Stone Mountain, GA</p>
+            <p><i class="fas fa-phone"></i> 404-406-2187</p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:sareoung.ly@uga.edu">sareoung.ly@uga.edu</a></p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a dedicated Computer Science and Economics student at the University of Georgia, 
+                        with a passion for creating innovative solutions that bridge technology and business. 
+                        My academic journey has taken me from the classrooms of Athens to the dynamic city of Seoul, 
+                        where I completed a study abroad program with a perfect 4.0 GPA, focusing on international economic policy and global market analysis.
+                    </p>
+                    <p>
+                        What excites me most is finding creative ways to solve problems through technology. 
+                        I enjoy building websites and applications that are both functional and user-friendly, 
+                        while my economics background helps me understand the broader impact of technology on business and society. 
+                        I'm always eager to learn new skills and take on challenges that push me to grow both technically and intellectually.
+                    </p>
+                    <p>
+                        I believe in the power of technology to drive economic growth and social impact. Whether it's developing efficient algorithms, 
+                        analyzing large datasets for economic insights, or building user-friendly applications, I am constantly seeking new challenges 
+                        that allow me to combine my technical skills with economic reasoning to create meaningful solutions.
+                    </p>
+                </div>
+                <div class="skills-overview">
+                    <h3>Core Competencies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Full-Stack Development</span>
+                        <span class="skill-tag">Systems Programming</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">API Integration</span>
+                        <span class="skill-tag">Database Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-date">2022-2025</div>
+                    <div class="education-content">
+                        <div class="institution">
+                            <h3>University of Georgia</h3>
+                            <p class="location">Athens, GA</p>
+                        </div>
+                        <div class="degree-info">
+                            <p class="degree">B.S. in Computer Science • B.A. in Economics</p>
+                            <p class="gpa">GPA: 3.6/4.0 | Graduation: December 2025</p>
+                            <div class="achievements">
+                                <span class="achievement">Dean's List (Fall 2022 – Fall 2024)</span>
+                                <span class="achievement">UGA Charter Scholarship (2022–2026)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-date">Summer 2025</div>
+                    <div class="education-content">
+                        <div class="institution">
+                            <h3>Yonsei University</h3>
+                            <p class="location">Seoul, South Korea</p>
+                        </div>
+                        <div class="degree-info">
+                            <p class="degree">Study Abroad Program in Economics</p>
+                            <p class="gpa">GPA: 4.0/4.0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Relevant Coursework -->
+            <div class="coursework">
+                <h3>Relevant Coursework</h3>
+                <div class="course-grid">
+                    <div class="course-category">
+                        <h4>Computer Science</h4>
+                        <ul>
+                            <li>CSCI 1301 - Introduction to Computing</li>
+                            <li>CSCI 1302 - Software Development</li>
+                            <li>CSCI 1730 - Systems Programming</li>
+                            <li>CSCI 2610 - Discrete Mathematics</li>
+                            <li>CSCI 2670 - Introduction to Theory of Computing</li>
+                            <li>CSCI 2720 - Data Structures & Algorithms</li>
+                            <li>CSCI 4300 - Web Programming</li>
+                            <li>CSCI 4470 - User Interface Software</li>
+                            <li>CSCI 4720 - Computer Architecture</li>
+                            <li>CSCI 4760 - Computer Networks</li>
+                            <li>CSCI 4800 - Human-Computer Interaction</li>
+                        </ul>
+                    </div>
+                    <div class="course-category">
+                        <h4>Economics</h4>
+                        <ul>
+                            <li>ECON 2105 - Principles of Macroeconomics</li>
+                            <li>ECON 2106 - Principles of Microeconomics</li>
+                            <li>ECO 3101 - Game Theory</li>
+                            <li>ECON 4010 - Intermediate Microeconomics</li>
+                            <li>ECON 4020 - Intermediate Macroeconomics</li>
+                            <li>ECON 4450 - Law & Economics</li>
+                        </ul>
+                    </div>
+                    <div class="course-category">
+                        <h4>Mathematics & Statistics</h4>
+                        <ul>
+                            <li>MATH 1113 - Pre-calculus</li>
+                            <li>MATH 2250 - Calculus I</li>
+                            <li>MATH 2260 - Calculus II</li>
+                            <li>STAT 2000 - Elementary Statistics</li>
+                            <li>STAT 4210 - Mathematical Statistics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">C</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">Shell Scripting</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Frameworks & Libraries</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">React.js</span>
+                        <span class="skill-item">Next.js</span>
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Express.js</span>
+                        <span class="skill-item">Tailwind CSS</span>
+                        <span class="skill-item">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases & Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">Git/GitHub</span>
+                        <span class="skill-item">Postman</span>
+                        <span class="skill-item">npm</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-desktop"></i> Development Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">VS Code</span>
+                        <span class="skill-item">IntelliJ IDEA</span>
+                        <span class="skill-item">Eclipse</span>
+                        <span class="skill-item">Windows/macOS</span>
+                        <span class="skill-item">Linux/Unix</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Honors -->
+    <section>
+        <h2>Honors & Awards</h2>
+        <ul>
+            <li>University of Georgia Charter Scholarship (2022–2026)</li>
+            <li>Dean’s List (Fall 2022 – Fall 2024)</li>
+        </ul>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Languages:</strong> Java, Python, JavaScript, SQL, HTML, CSS, Shell</li>
+            <li><strong>Tools & Frameworks:</strong> React, Next.js, Node.js, Express.js, MongoDB, MySQL, Tailwind CSS, Git</li>
+            <li><strong>Operating Systems:</strong> Windows, macOS</li>
+            <li><strong>Development Tools:</strong> VS Code, Postman, GitHub, npm</li>
+        </ul>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-date">Aug 2023 – Aug 2024</div>
+                    <div class="experience-content">
+                        <h3>Student Engagement Ambassador</h3>
+                        <h4>Ruffalo Noel Levitz • Remote/Athens, GA</h4>
+                        <ul>
+                            <li>Conducted outbound communication with 200+ alumni monthly to support university fundraising initiatives</li>
+                            <li>Maintained 95% data accuracy rate while processing donor information and interaction records</li>
+                            <li>Collaborated with development team to optimize engagement strategies, contributing to 15% increase in donor response rates</li>
+                            <li>Utilized CRM software to track interactions and generate detailed reports for leadership team</li>
+                            <li>Developed strong interpersonal communication skills through personalized alumni outreach</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-date">Mar 2022 – Dec 2024</div>
+                    <div class="experience-content">
+                        <h3>Warehouse Associate (Order Puller)</h3>
+                        <h4>Gates Corporation • Stone Mountain, GA</h4>
+                        <ul>
+                            <li>Processed 500+ monthly orders with 99% accuracy rate in high-volume distribution environment</li>
+                            <li>Operated warehouse management systems (WMS) and inventory tracking software</li>
+                            <li>Implemented efficient workflow processes that reduced order processing time by 20%</li>
+                            <li>Collaborated with cross-functional teams including logistics, quality control, and shipping departments</li>
+                            <li>Trained 3 new team members on operational procedures and safety protocols</li>
+                            <li>Maintained detailed inventory records and assisted with cycle count accuracy initiatives</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="systems">Systems Programming</button>
+                <button class="filter-btn" data-filter="api">API Integration</button>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+
+                <div class="project-card" data-category="web api">
+                    <div class="project-image">
+                        <img src="images/recipe.png" alt="Nutrition API App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Nutrition API App</h3>
+                        <p>Full-stack recipe and nutrition lookup application featuring comprehensive API integration with Spoonacular and USDA nutrition databases. Implements responsive design with real-time search capabilities and detailed nutritional analysis with macro/micronutrient breakdowns.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">REST APIs</span>
+                            <span class="tech-tag">JavaScript ES6+</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web api">
+                    <div class="project-image">
+                        <img src="images/itunes.png" alt="iTunes API App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>iTunes API App</h3>
+                        <p>Dynamic media browsing interface leveraging iTunes Search API with advanced filtering, pagination, and responsive grid layout. Features include real-time search, media type filtering (music, movies, podcasts), and optimized performance with debounced search queries.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vanilla JavaScript</span>
+                            <span class="tech-tag">iTunes API</span>
+                            <span class="tech-tag">HTML5/CSS3</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="systems">
+                    <div class="project-image">
+                        <img src="images/C4.png" alt="C4 Alpha Connect Four">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>C4 Alpha (Connect Four)</h3>
+                        <p>Object-oriented Connect Four game implementation featuring comprehensive MVC architecture, advanced win-condition algorithms with diagonal/horizontal/vertical checks, AI player logic with minimax algorithm, and robust error handling with extensive unit testing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">OOP Design Patterns</span>
+                            <span class="tech-tag">Algorithm Design</span>
+                            <span class="tech-tag">JUnit Testing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="systems">
+                    <div class="project-image">
+                        <img src="images/unix.svg" alt="UNIX Shell">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Custom UNIX Shell</h3>
+                        <p>Low-level systems programming project implementing a fully functional shell with advanced features including command parsing, process forking/execution, signal handling, I/O redirection (>, <, >>), pipe implementation (|), background process management (&), and built-in commands (cd, history, exit).</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C Programming</span>
+                            <span class="tech-tag">UNIX System Calls</span>
+                            <span class="tech-tag">Process Management</span>
+                            <span class="tech-tag">Memory Management</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="images/roaming.svg" alt="Roaming Palette">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Roaming Palette</h3>
+                        <p>Full-stack food exploration platform built with modern web technologies. Features include user authentication with JWT, restaurant discovery with geolocation API integration, advanced filtering system, user reviews and ratings, favorites management, and responsive mobile-first design optimized for food discovery.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">MongoDB Atlas</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="images/musiccupid.svg" alt="MusicCupid">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>MusicCupid</h3>
+                        <p>Privacy-focused music compatibility application developed during UGA Hacks X (36-hour hackathon). Features manual song selection for enhanced privacy, compatibility algorithms based on music preferences, real-time matching system, and responsive progressive web app design. Won recognition for innovative approach to social matching.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">Hackathon Project</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-preview">
+                    <div class="resume-card">
+                        <div class="resume-header">
+                            <div class="resume-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="resume-info">
+                                <h3>Professional Resume</h3>
+                                <p>Comprehensive overview of my academic achievements, technical skills, and professional experience</p>
+                                <div class="resume-details">
+                                    <span class="resume-detail">
+                                        <i class="fas fa-calendar"></i>
+                                        Updated: November 2024
+                                    </span>
+                                    <span class="resume-detail">
+                                        <i class="fas fa-file"></i>
+                                        PDF Format
+                                    </span>
+                                    <span class="resume-detail">
+                                        <i class="fas fa-download"></i>
+                                        Ready to Download
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resume-actions">
+                            <a href="/Users/timothyly/Resumes/Resume.pdf" target="_blank" class="btn btn-primary resume-btn" download="Timothy_Ly_Resume.pdf">
+                                <i class="fas fa-download"></i>
+                                Download PDF
+                            </a>
+                            <a href="/Users/timothyly/Resumes/Resume.pdf" target="_blank" class="btn btn-secondary resume-btn">
+                                <i class="fas fa-eye"></i>
+                                View Online
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="resume-highlights">
+                    <h3>Resume Highlights</h3>
+                    <div class="highlights-grid">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Education</h4>
+                            <p>Dual degree in Computer Science & Economics from University of Georgia</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <h4>Technical Skills</h4>
+                            <p>Full-stack development with Java, Python, JavaScript, React, and more</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <h4>Projects</h4>
+                            <p>6+ completed projects including web applications and systems programming</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-award"></i>
+                            <h4>Achievements</h4>
+                            <p>Dean's List, UGA Charter Scholarship, Perfect GPA abroad</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-briefcase"></i>
+                            <h4>Experience</h4>
+                            <p>Professional experience in student engagement and warehouse operations</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <h4>Leadership</h4>
+                            <p>Hackathon team leader, academic societies member, volunteer work</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="resume-cta">
+                <div class="cta-content">
+                    <h3>Interested in Working Together?</h3>
+                    <p>Download my resume for a detailed overview of my qualifications, or get in touch to discuss opportunities in software development, data analysis, or economic research.</p>
+                    <div class="cta-actions">
+                        <a href="/Users/timothyly/Resumes/Resume.pdf" download="Timothy_Ly_Resume.pdf" class="btn btn-primary">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                        <a href="contact.html" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus & Community Section -->
+    <section id="community" class="community">
+        <div class="container">
+            <h2 class="section-title">Campus & Community</h2>
+            <div class="community-grid">
+                <div class="community-category">
+                    <h3><i class="fas fa-university"></i> Academic Organizations</h3>
+                    <div class="community-items">
+                        <div class="community-item">
+                            <h4>UGA Economics Society</h4>
+                            <p>Active member participating in weekly economic discussions, guest speaker events, and collaborative research projects. Contributed to policy analysis discussions on regional economic development.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="community-category">
+                    <h3><i class="fas fa-code"></i> Competitions & Events</h3>
+                    <div class="community-items">
+                        <div class="community-item">
+                            <h4>UGA Hacks X (Team Leader)</h4>
+                            <p>Led 4-person development team in 36-hour hackathon competition. Coordinated project planning, task delegation, and technical architecture decisions. Successfully delivered functional MVP of MusicCupid application within time constraints.</p>
+                        </div>
+                        <div class="community-item">
+                            <h4>STEMZone Presenter</h4>
+                            <p>Represented UGA Computer Science program at STEM outreach events for K-12 students. Designed and delivered interactive presentations on programming concepts, inspiring next generation of computer scientists.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Sareoung Timothy Ly</h3>
+                    <p>Computer Science & Economics Student</p>
+                    <p>University of Georgia | Class of 2025</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get In Touch</h4>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:sareoung.ly@uga.edu">sareoung.ly@uga.edu</a></p>
+                    <p><i class="fas fa-phone"></i> 404-406-2187</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Stone Mountain, GA</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/sareoung-l-872509267" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="mailto:sareoung.ly@uga.edu" aria-label="Email">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                        <a href="#" aria-label="GitHub Profile">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sareoung Timothy Ly. All rights reserved.</p>
+                <p>Built with passion for technology and innovation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
